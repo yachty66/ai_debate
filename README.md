@@ -1,10 +1,33 @@
 # ai_debate
 
-- [x] take the image of elon and turn it into a video with musev and then apply audio on it via musetalk
-    - [x] make a pipeline where i install both musev and talk 
-- [x] pick an high quality image of elon together with 5 sec audio for testing
-- [x] follow the steps in the repo for making refinements so that i have optimal output
-- [x] think about what the ideal scene looks like in which i wanna represent the debate (do i want to have background or not, how is the whole scene of the debate)
-- [ ] generate the debate from my friend from x (Debate about open research publications and secret research projects for business profits. That will be fun)
-- [ ] try to get a new and better image/video of elon based on the requirements of the model for what an ideal input image looks like 
-- [ ] get image/video of yan lecun
+## Steps to reproduce 
+
+1. generate debate with claude
+2. uncensored workflow?
+3. find 30 second audio clip for speaker 1 and 2 
+4. isolate voice with eleven labs https://elevenlabs.io/blog/voice-isolator
+5. clone voice of both speakers
+6. run script for creating debate audio files for both speakers
+7. search image for both speakers
+8. run model and create lip sync
+9. put it together in capcut
+10. post 
+
+
+- [ ] video of zuck and caesar bringing zuck down on his chain
+- [ ] make a nice intro where people laughing loudly at the beginning - yapping.ai or yappers.ai or laugher.ai - yapping.ai is like a wirbelstorm flying into the scene
+
+One indicator for when to switch from human to AI is if the input tokens you need for having the task accomplished are a smaller amount then the amount of input tokens you need for the AI
+
+
+One indicator for when to switch from human to AI is if the number of input tokens you need to accomplish the task for the human is bigger than the number of input tokens required for the AI
+
+
+Homo sexuality perse is not anti existential only the refusal of sexuality with the other gender fo the reason of having kids
+
+
+
+
+
+
+One indicator for when to switch from human to AI is if the number of input tokens you need to accomplish the task for the human is bigger than the number of input tokens required for the AI
