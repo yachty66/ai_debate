@@ -5,6 +5,9 @@
 1. generate debate with claude
 2. uncensored workflow?
 3. find 30 second audio clip for speaker 1 and 2 
+    - download video from yt: yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" --merge-output-format mp4 https://www.youtube.com/watch?v=6EkKbYxr8x4
+    - trimm the video: ffmpeg -i marck.mp4 -ss 00:01:30 -to 00:02:00 -c:v libx264 -c:a aac marck_trimmed.mp4
+    - convert trimmed video to mp3: ffmpeg -i yann_trimmed.mp4 -q:a 0 -map a yann_audio.mp3
 4. isolate voice with eleven labs https://elevenlabs.io/blog/voice-isolator
 5. clone voice of both speakers
 6. run script for creating debate audio files for both speakers
